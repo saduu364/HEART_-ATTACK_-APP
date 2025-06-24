@@ -1,3 +1,21 @@
+import streamlit as st 
+
+# Set Streamlit page configuration
+st.set_page_config(
+    page_title="Heart Attack Risk Predictor",
+    page_icon="❤️",
+    layout="centered"
+)
+
+# Add logo and title
+st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Heart_icon_red_hollow.svg/1024px-Heart_icon_red_hollow.svg.png", width=100)
+st.markdown("<h1 style='text-align: center; color: red;'>Heart Attack Risk Prediction Tool</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size:18px;'>This AI-powered tool helps patients and doctors assess the likelihood of heart attack risk based on medical parameters.</p>", unsafe_allow_html=True)
+
+# ✅ Your existing imports and code come after this:
+import pandas as pd
+import joblib
+# ... rest of your app code continues here ...
 
 import streamlit as st
 import pandas as pd
