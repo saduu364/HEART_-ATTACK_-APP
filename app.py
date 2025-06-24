@@ -2,7 +2,7 @@ import streamlit as st
 
 # Set Streamlit page configuration
 st.set_page_config(
-    page_title="Heart Attack Risk Predictor",
+    page_title="Heart Attack Risk Prediction Tool",
     page_icon="❤️",
     layout="centered"
 )
